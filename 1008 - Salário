@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+
+        int num_func, horas_trab;                                       //um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário.
+        double custo_hora;
+        num_func = sc.nextInt();
+        horas_trab = sc.nextInt();
+        custo_hora = sc.nextDouble();
+        
+        double salario = custo_hora * horas_trab;
+        
+        System.out.println("NUMBER = " + num_func);
+        System.out.printf("SALARY = U$ %.2f%n", salario);
+
+        sc.close();
+    }
+}
