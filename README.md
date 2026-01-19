@@ -11,5 +11,3 @@ Este repositório contém meus exercícios resolvidos do curso de lógica de pro
 - Estruturas de repetição (`for`, `while`, `do-while`)
 - Funções e modularização
 - Manipulação de strings e arrays
-
-## 📁 Estrutura do repositório
